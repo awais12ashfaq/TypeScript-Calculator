@@ -1,77 +1,42 @@
+# Simple Calculator
 
-# TypeScript Calculator
+This is a simple command-line calculator built using Node.js and the inquirer package. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-## Description
+## Getting Started
 
-This repository contains a simple calculator implemented in TypeScript. The calculator performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
+To use this calculator, you need to have Node.js installed on your system. You can install it from [here](https://nodejs.org/).
 
-## Features
+Once you have Node.js installed, you can clone this repository and navigate to the directory containing the calculator.
 
-- **Basic Arithmetic Operations**: Addition, subtraction, multiplication, and division.
-- **User-Friendly Interface**: Clean and intuitive interface for ease of use.
-- **Error Handling**: Handles invalid inputs gracefully, providing informative error messages to the user.
+## Installing Dependencies
 
-## Usage
+Before running the calculator, you need to install the required dependencies using npm:
 
-To use the calculator, simply:
+This will install the inquirer package, which is used for handling user input.
 
-1. Clone or download this repository to your local machine.
-2. Open the `index.html` file in your web browser.
-3. Start performing calculations using the buttons provided.
+## Running the Calculator
 
-## How to Run
+To run the calculator, simply execute the following command in your terminal:
 
-To run the calculator on your local machine, follow these steps:
+This will start the calculator and prompt you to enter two numbers and select an operation. After performing the operation, the result will be displayed in the terminal.
 
-1. Ensure you have [Node.js](https://nodejs.org/) installed on your system.
-2. Clone this repository to your local machine using Git:
+## Supported Operations
 
-  
-   git clone https://github.com/your_username/typescript-calculator.git
-  
+The calculator supports the following operations:
 
-3. Navigate to the project directory:
+- Addition (+)
+- Subtraction (-)
+- Multiplication (*)
+- Division (/)
 
-  
-   cd typescript-calculator
-  
+## Example
 
-4. Install dependencies:
+Here's an example of how to use the calculator:
 
-  
-   npm install
- 
+? Enter the first number: 5 ? Select operation: Addition (+) ? Enter the second number: 3The result is: 8
 
-5. Compile TypeScript code:
+## Acknowledgments
 
+Special thanks to the creators of the inquirer package for providing a simple and intuitive way to handle user input in Node.js applications.
 
-   npm run build
-  
-
-6. Open the `index.html` file in your web browser to access the calculator.
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/add-new-feature`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature/add-new-feature`).
-6. Create a new Pull Request.
-
-Please ensure your code follows the project's coding conventions and includes appropriate documentation and tests.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## About the Author
-
-This TypeScript calculator project was created by Muhammad Owais. Feel free to reach out if you have any questions or suggestions!
-
-## Contact
-
-For inquiries or feedback, you can contact me at [awais123ashfaq@gmail.com].
-
+account : awais123ashfaq@gmail.com
